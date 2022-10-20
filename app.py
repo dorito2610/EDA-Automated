@@ -24,13 +24,12 @@ selected = option_menu(
     orientation='horizontal'
 )
 
-if selected == "Main":
+if selected == "Analytics":
 
     # Page title
     st.title("EDA Automation")
     # Creating the sidebar
     # st.sidebar.multiselect("columns", columns(df))
-
     # Mid page
     st.markdown("### Select your file")
     file = st.file_uploader("upload your csv")
